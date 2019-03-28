@@ -58,7 +58,7 @@
 }
 
 /* Clearfix for the .slides element */
-.slides:after {
+.slides:after {gi
   content: "\0020";
   display: block;
   clear: both;
@@ -186,7 +186,7 @@ html[xmlns] .slides {
   z-index: 10;
   overflow: hidden;
   cursor: pointer;
-  color: #000;
+  color: red;
 }
 
 .flex-pauseplay a:before {
